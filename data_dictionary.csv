@@ -1,0 +1,39 @@
+﻿variable,original_column_zh,description,unit,notes
+subject_id,被试编号,Pseudonymous participant identifier,,P01–P52
+group,实验组,Age-by-experience group,,YN = young novice; YE = young experienced; EN = elderly novice; EE = elderly experienced; 13 per group
+driving_experience_y,驾龄_年,Years holding a driving licence,years,novice <3 years; experienced >=10 years
+condition,实验条件,Cognitive-load condition,,baseline = drive without secondary task; 0-back / 1-back / 2-back = auditory n-back conditions
+brake_reaction_time_s,刹车反应时间_s,Brake reaction time to the braking stimulus,s,4 missing rows; 53 distinct values across 204 rows
+hr_mean_bpm,平均心率_bpm,Mean heart rate,beats/min,
+hr_sd_bpm,心率标准差_bpm,Within-segment SD of heart rate,beats/min,67 distinct values across 204 rows
+ibi_mean_ms,平均心搏间期_ms,Mean inter-beat interval,ms,
+sdnn_ms,SDNN_ms,SD of NN intervals,ms,
+rmssd_ms,RMSSD_ms,Root mean square of successive differences,ms,
+pnn50_pct,pNN50_百分比,Proportion of successive NN intervals differing >50 ms,%,
+lf_power,LF功率,Low-frequency HRV power,UNIT TO CONFIRM,4 missing rows; confirm absolute (ms2) vs normalised units
+hf_power,HF功率,High-frequency HRV power,UNIT TO CONFIRM,confirm absolute (ms2) vs normalised units
+lf_hf_ratio,LF_HF比值,LF/HF ratio,ratio,4 missing rows
+poincare_sd1_ms,SD1_ms,Poincaré SD1,ms,
+poincare_sd2_ms,SD2_ms,Poincaré SD2,ms,
+blink_count,眨眼次数,Number of blinks in the analysed segment,count,
+blink_rate_per_min,眨眼频率_次分,Blink rate (Figure 3),blinks/min,10 missing rows
+blink_duration_mean_ms,眨眼平均时长_ms,Mean blink duration,ms,10 missing rows
+fixation_count,注视次数,Number of fixations,count,
+fixation_duration_mean_ms,注视平均时长_ms,Mean fixation duration,ms,9 missing rows
+fixation_total_duration_s,注视总时长_s,Total fixation duration,s,9 missing rows
+fixation_time_ratio_pct,注视时间占比_pct,Fixation time as a share of segment duration,%,8 missing rows
+fixation_sample_count,注视总采样点,Gaze samples classified as fixations,count,4 missing rows
+saccade_count,眼跳次数,Number of saccades,count,
+saccade_duration_mean_ms,眼跳平均时长_ms,Mean saccade duration,ms,9 missing rows
+gap_count,Gap次数,Number of tracking gaps,count,4 missing rows
+pupil_diameter_mean_mm,瞳孔直径均值_mm,Mean pupil diameter,mm,7 missing rows
+pupil_diameter_sd_mm,瞳孔直径标准差_mm,SD of pupil diameter,mm,7 missing rows
+gaze_velocity_mean_deg_s,注视速度均值_deg/s,Mean gaze velocity,deg/s,
+gaze_velocity_max_deg_s,注视速度最大值,Maximum gaze velocity,deg/s,8 missing rows
+gaze_velocity_sd_deg_s,注视速度标准差,SD of gaze velocity,deg/s,8 missing rows
+gaze_x_mean_pct,注视X坐标均值_百分比,Mean horizontal gaze position,% of screen width,4 missing rows
+gaze_x_sd_pct,注视X坐标标准差,SD of horizontal gaze position,% of screen width,4 missing rows
+gaze_y_mean_pct,注视Y坐标均值_百分比,Mean vertical gaze position,% of screen height,4 missing rows
+gaze_y_sd_pct,注视Y坐标标准差,SD of vertical gaze position,% of screen height,4 missing rows
+age_y (participants.csv),年龄_岁,"Age at testing — in participants.csv only, not in the long table",years,YN 20–30; YE 22–36; EN 65; EE 60–65
+sex (participants.csv),性别,"Sex — in participants.csv only, not in the long table",,M / F
